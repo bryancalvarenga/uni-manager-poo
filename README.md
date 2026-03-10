@@ -1,11 +1,11 @@
-# ☕ UniManager — Projeto de Estudos em Java (POO)
+# UniManager — Projeto de Estudos em Java (POO)
 
 > Aplicação de console criada para praticar os **principais conceitos de Programação Orientada a Objetos (POO)** em Java.  
 > O projeto simula o gerenciamento de **pessoas (alunos e professores)**, **cursos** e **matrículas**, utilizando uma estrutura limpa e modular.
 
 ---
 
-## 🎯 Objetivos de aprendizado
+## Objetivos de aprendizado
 
 - Dominar os **fundamentos da POO**: classes, objetos, construtores, encapsulamento, herança e polimorfismo.  
 - Entender a importância de **interfaces**, **classes abstratas** e **enums**.  
@@ -15,7 +15,7 @@
 
 ---
 
-## 🧱 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 src/
@@ -50,22 +50,22 @@ src/
 
 ---
 
-## 🚀 Como executar
+## Como executar
 
-### ✅ Compilar
+### Compilar
 Na raiz do projeto:
 ```bash
 javac -d out src/app/Main.java src/model/*.java src/repo/*.java src/service/*.java
 ```
 
-### ▶️ Rodar
+### Rodar
 ```bash
 java -cp out app.Main
 ```
 
 ---
 
-## 💡 Funcionalidades
+## Funcionalidades
 
 | Função | Descrição |
 |--------|------------|
@@ -77,7 +77,7 @@ java -cp out app.Main
 
 ---
 
-## 🧠 Conceitos aplicados
+## Conceitos aplicados
 
 | Conceito | Onde aparece | Explicação |
 |-----------|---------------|------------|
@@ -98,7 +98,7 @@ java -cp out app.Main
 
 ---
 
-## 🧩 Fluxo de matrícula
+## Fluxo de matrícula
 
 1. Usuário escolhe **“Matricular”**.  
 2. Informa o **ID do aluno** e o **código do curso**.  
@@ -110,27 +110,8 @@ java -cp out app.Main
 
 ---
 
-## 🧰 Tecnologias utilizadas
+## Tecnologias utilizadas
 
-- ☕ **Java 17+**
-- 💻 **VS Code** ou qualquer IDE
-- 📚 **Coleções e classes utilitárias (`ArrayList`, `Scanner`, `Exception`)**
-
----
-
-## 🌱 Melhorias sugeridas
-
-- Bloquear **matrículas duplicadas** no mesmo curso  
-- Adicionar opção **“Listar matrículas”** no menu  
-- Persistir dados em arquivo `.txt` usando `FileWriter`  
-- Buscar cursos por **parte do título (`indexOf`)**  
-- Implementar um **relatório geral (`Imprimivel`)** com todas as entidades
-
----
-
-## 🧑‍💻 Autor
-
-**Bryan C. Alvarenga**  
-Desenvolvedor & estudante de Engenharia de Software — UNIFIO  
-📍 Ourinhos - SP, Brasil  
-🌐 [bryanalvarenga.com.br](https://bryanalvarenga.com.br)
+- **Java 17+**
+- **VS Code** ou qualquer IDE
+- **Coleções e classes utilitárias (`ArrayList`, `Scanner`, `Exception`)**
